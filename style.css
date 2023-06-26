@@ -23,8 +23,8 @@ h3 {
 
 main { 
     display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 10em;
+    grid-template-columns: 40% 90%;
+    margin-top: 3em;
 }
 header {
     text-align: center;
