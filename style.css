@@ -24,8 +24,9 @@ h3 {
 }
 
 main { 
-
-    margin-top: 50em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 10em;
 }
 section {
     margin: auto 1em 4em 2em;
