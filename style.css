@@ -26,9 +26,11 @@ h3 {
 main { 
     display: grid;
     grid-template-columns: 40% 60%;
-    margin-top: 10em;
+    margin-top: 3em;
 }
-
+section {
+    margin: auto 1em 4em 2em;
+}
 header {
     text-align: center;
     margin: auto 3em;
