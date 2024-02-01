@@ -275,13 +275,6 @@ section {
   display: flex;
 }
 
-#portfolio ul ul li {
-  background-color: #134074;
-  margin-right: 0.5rem;
-  border-radius: 0.25rem;
-  padding: 0.5rem;
-  font-size: 10pt;
-}
 
 .port-title-text {
   margin: 0%;
@@ -363,14 +356,6 @@ footer p {
   .hero-image {
     width: 512px;
   }
-
-  #portfolio ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
 
   #contact ul {
     margin-left: 5rem;
