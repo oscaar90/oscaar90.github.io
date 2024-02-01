@@ -267,7 +267,6 @@ section {
   flex-direction: column;
   justify-content: space-between;
 }
-
 #portfolio ul li p {
   margin-bottom: 1rem;
 }
@@ -276,18 +275,13 @@ section {
   display: flex;
 }
 
-#portfolio li {
-  background-color: #13315c;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  width: auto; /* Ajusta el ancho según sea necesario */
-  min-height: 150px; /* Altura mínima, pero puede expandirse */
-  text-align: justify; /* Justifica el texto */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+#portfolio ul ul li {
+  background-color: #134074;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 10pt;
 }
-
 
 .port-title-text {
   margin: 0%;
@@ -376,10 +370,7 @@ footer p {
     flex-wrap: wrap;
     width: 100%;
   }
-  #portfolio li {
-    max-width: 45%;
-    margin: 2.5%;
-  }
+
 
   #contact ul {
     margin-left: 5rem;
@@ -499,10 +490,6 @@ footer p {
     width: 100%;
   }
 
-  #portfolio li {
-    max-width: 30%;
-    margin: 1.6%;
-  }
 
   #contact {
     width: 100%;
