@@ -260,7 +260,14 @@ section {
   background-color: #13315c;
   padding: 1rem;
   margin-bottom: 1rem;
+  width: auto; /* Ajusta el ancho según sea necesario */
+  min-height: 150px; /* Altura mínima, pero puede expandirse */
+  text-align: justify; /* Justifica el texto */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 
 #portfolio ul li p {
   margin-bottom: 1rem;
@@ -272,9 +279,9 @@ section {
 
 #portfolio ul ul li {
   background-color: #134074;
- /* margin-right: 0.5rem;
+  margin-right: 0.5rem;
   border-radius: 0.25rem;
-  padding: 0.5rem;*/
+  padding: 0.5rem;
   font-size: 10pt;
 }
 
@@ -542,4 +549,11 @@ footer p {
 
 .scroll-header {
   background-color: #13315c;
+}
+.card {
+  background-color: #13315c;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
