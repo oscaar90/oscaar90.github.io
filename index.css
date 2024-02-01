@@ -256,17 +256,7 @@ section {
   flex-direction: row;
 }
 
-#portfolio li {
-  background-color: #5c1331;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  width: auto; /* Ajusta el ancho según sea necesario */
-  min-height: 150px; /* Altura mínima, pero puede expandirse */
-  text-align: justify; /* Justifica el texto */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 #portfolio ul li p {
   margin-bottom: 1rem;
 }
