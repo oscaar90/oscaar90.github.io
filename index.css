@@ -69,7 +69,12 @@ footer p {
   width: 100%;
   text-align: center;
 }
-
+.highlight {
+  font-weight: bold;
+  font-size: larger;
+  font-family: 'Arial', sans-serif;
+  /* Puedes agregar más estilos aquí, como color, fondo, etc. */
+}
 ul {
   padding: 0;
   list-style: none;
