@@ -33,7 +33,6 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para profundidad */
   padding-right: 30px;
   padding-left: 30px; 
-  max-width: 1960px;
 }
 h1 {
   font-size: 4em; /* Aumentar tamaño de fuente */
