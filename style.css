@@ -49,6 +49,23 @@ h1 {
   margin-bottom: 0.5em;
 }
 
+header {
+  text-align: center;
+  margin: auto 3em;
+  padding: 2em 0;
+  background: linear-gradient(to right, #e6e6e6, #f5f5f5); /* Fondo degradado en tonos de gris */
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 4em; /* Aumentar tamaño de fuente */
+  font-weight: bold; /* Fuente en negrita */
+  color: #333; /* Color del texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto */
+  margin-bottom: 0.5em;
+}
+
 
 
 i {
