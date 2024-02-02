@@ -28,9 +28,15 @@ main {
   grid-template-columns: 40% 60%;
   margin-top: 3em;
 }
+
 section {
   margin: auto 1em 4em 2em;
+  background-color: #f5f5f5; /* Gris claro */
+  padding: 1em;
+  border-radius: 8px; /* Bordes redondeados para un aspecto suave */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para profundidad */
 }
+
 header {
   text-align: center;
   margin: auto 3em;
