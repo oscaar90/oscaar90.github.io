@@ -56,8 +56,14 @@ header {
   background: linear-gradient(to right, #e6e6e6, #f5f5f5); /* Fondo degradado en tonos de gris */
   border-radius: 8px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  color: #333333; /* Ajusta esto según tu esquema de color */
 }
-
+header p {
+  font-size: 1.2em; /* Aumentar tamaño de fuente */
+  font-weight: bold; /* Hacer el texto en negrita */
+  margin-top: 1em; /* Espacio antes del texto */
+  margin-bottom: 1em; /* Espacio después del texto */
+}
 h1 {
   font-size: 4em; /* Aumentar tamaño de fuente */
   font-weight: bold; /* Fuente en negrita */
