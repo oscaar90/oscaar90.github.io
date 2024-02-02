@@ -6,7 +6,6 @@ body {
   max-width: 1260px;
   margin: auto;
   padding-top: 30px;
-  padding-right: 20px;
 }
 
 
@@ -33,16 +32,6 @@ section {
   border-radius: 8px; /* Bordes redondeados para un aspecto suave */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para profundidad */
 }
-
-header {
-  text-align: center;
-  margin: auto 3em;
-  padding: 2em 0;
-  background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Fondo degradado */
-  border-radius: 8px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
 h1 {
   font-size: 4em; /* Aumentar tamaño de fuente */
   font-weight: bold; /* Fuente en negrita */
@@ -59,7 +48,7 @@ header {
   border-radius: 8px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   color: #333333; /* Ajusta esto según tu esquema de color */
-  
+  padding-right: 20px;  
 }
 hr {
   font-size: 1.2em; /* Aumentar tamaño de fuente */
