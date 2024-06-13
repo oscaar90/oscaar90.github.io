@@ -28,17 +28,17 @@ nc -lvnp 5555
 Una vez que la conexión se establece, aquí está lo que enfrentamos:
 
 
-## * No hay autocompletado: Al presionar Tab para completar comandos o nombres de archivos simplemente no funciona. Ejemplo:
+### No hay autocompletado: Al presionar Tab para completar comandos o nombres de archivos simplemente no funciona. Ejemplo:
 ```bash
 cd /sys/ker	    aa
 ```
-## * No podemos limpiar la pantalla: Los comandos como clear no funcionan, dejando la sesión visualmente desordenada. Ejemplo:
+### No podemos limpiar la pantalla: Los comandos como clear no funcionan, dejando la sesión visualmente desordenada. Ejemplo:
 ```bash
 clear
 TERM environment variable not set.
 ```
 
-## * Control de señales deficiente: Intentar detener un proceso con Ctrl+C cerrará la shell. Ejemplo:
+### Control de señales deficiente: Intentar detener un proceso con Ctrl+C cerrará la shell. Ejemplo:
 
 ```bash
 
@@ -73,7 +73,7 @@ sh: 7:
     ~  ✘ 1  took  42s  
 ```
 
-## * Caracteres extraños al navegar por el historial: Las flechas del teclado generan caracteres como  ^[[A [[2~^[[H ^[[B.  Ejemplo:
+### Caracteres extraños al navegar por el historial: Las flechas del teclado generan caracteres como  ^[[A [[2~^[[H ^[[B.  Ejemplo:
 ```bash
 ^[[A^[[A^[[B^[[C^[[D^[[C^[[B^[[D^[[C^[[A^[[D^[^[[C^[[A^[[D^[[2~^[[H
 ```
@@ -83,40 +83,40 @@ sh: 7:
 
 Ahora que tenemos una conexión de shell básica, vamos a transformarla en una interfaz completamente interactiva. Aquí te mostramos cómo podemos lograr una experiencia de shell completa, utilizando el método script para simular un TTY:
 
-## * Asegurar una conexión básica: 
+### Asegurar una conexión básica: 
 Nos aseguramos de que tenemos una shell básica corriendo como la que hemos establecido previamente con Netcat.
 
-## * Iniciar una sesión de shell interactiva
+### Iniciar una sesión de shell interactiva
 En nuestra shell básica, ejecutamos el siguiente comando para forzar la creación de una sesión de bash interactiva:
 ```bash
 script /dev/null -c bash
 ```
-## *  Suspender la shell
+###  Suspender la shell
 Una vez que el comando anterior está en ejecución, utilizamos 
 ```bash
 Control+Z 
 ```
 para suspender temporalmente nuestra shell.
 
-## * Preparar nuestro terminal local: 
+### Preparar nuestro terminal local: 
 Antes de volver a nuestra shell, configuramos nuestro terminal local:
 ```bash
 stty raw -echo; fg
 ```
 
-## * Resetear la configuración del terminal
+### Resetear la configuración del terminal
 Ahora que tenemos el control de la shell, la reseteamos para asegurar que se comporta correctamente:
 ```bash
 reset
 ```
-## * Configura el tipo de terminal:
+### Configura el tipo de terminal:
 
 ```bash
 xterm
 export TERM=xterm
 export SHELL=bash
 ```
-## * Ajustar dimensiones del terminal
+### Ajustar dimensiones del terminal
 Ajustamos las dimensiones de la terminal para mostrar la información correctamente:
 ```bash
 stty rows 52 columns 187
