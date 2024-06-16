@@ -5,6 +5,7 @@ categories: [CTF, Tutoriales]
 tags: [tty, shell, reverse-shell, Tutoriales]
 ---
 
+
 ¡Bienvenidos a nuestro tutorial sobre TTY en contextos de CTF! ¿Alguna vez hemos logrado acceder a una shell durante un CTF y nos hemos encontrado con que es casi inutilizable? Aquí vamos a mostrar cómo podemos mejorar nuestra experiencia y hacer nuestra shell mucho más interactiva y funcional.
 
 ## ¿Qué es el TTY y por qué es importante?
@@ -41,7 +42,6 @@ TERM environment variable not set.
 ### Control de señales deficiente: Intentar detener un proceso con Ctrl+C cerrará la shell. Ejemplo:
 
 ```bash
-
 lrwxrwxrwx   1 root root     7 jun  6 09:10 bin -> usr/bin
 drwxr-xr-x   3 root root  4096 jun  6 09:14 boot
 drwxr-xr-x  17 root root  3260 jun 12 20:13 dev
@@ -69,7 +69,6 @@ lrwxrwx: not foundt root    27 jun  6 09:11 vmlinuz.old -> boot/vmlinuz-6.1.0-18
 ^[[A^[[A
 sh: 7: 
 ^C
-
     ~  ✘ 1  took  42s  
 ```
 
