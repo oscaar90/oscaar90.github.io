@@ -62,6 +62,8 @@ Nmap done: 256 IP addresses (5 hosts up) scanned in 1.99 seconds
 
 La dirección MAC **00:0C:29:BF:B0:38** es una pista crucial. Los primeros dos octetos de la dirección MAC **(00:0C)** corresponden al fabricante VMware. Esto nos indica que este dispositivo es una máquina virtual creada en VMware. Dado que estamos buscando la máquina víctima virtualizada y conocemos que estamos utilizando VMware para este propósito, podemos concluir que la IP **172.17.0.145** corresponde a nuestra máquina víctima.
 
+**Nota:** También es posible que una dirección MAC que comience con 08:00 pertenezca a una máquina virtual.
+
 
 ### ARP-SCAN
 
@@ -84,6 +86,8 @@ Ending arp-scan 1.10.0: 256 hosts scanned in 2.131 seconds (120.13 hosts/sec). 4
 Entre estos resultados, hemos identificado que la IP **172.17.0.145** tiene la dirección MAC **00:0c:29:bf:b0:38**. Los primeros dos octetos de la dirección MAC **00:0c** son asignados a VMware, lo que nos indica que este dispositivo es una máquina virtual creada en VMware.
 
 Dado que estamos buscando la máquina víctima virtualizada y conocemos que estamos utilizando VMware para este propósito, podemos concluir que la IP 172.17.0.145 corresponde a nuestra máquina víctima.
+
+**Nota:** También es posible que una dirección MAC que comience con 08:00 pertenezca a una máquina virtual.
 
 ## Resultado
 
