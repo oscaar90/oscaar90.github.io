@@ -196,10 +196,12 @@ exclude:
   - package*.json
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories, tags, portfolio]
   layouts:
     category: category
     tag: tag
+    portfolio: portfolio
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+    portfolio: /portfolio/:name/
