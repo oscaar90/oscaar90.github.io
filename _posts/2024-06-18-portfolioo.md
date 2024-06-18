@@ -14,7 +14,7 @@ Con más de 12 años de experiencia en administración de sistemas y gestión de
 
 ### Experiencia Profesional
 
-#### **Aldi España | Senior en Sistemas con Orientación en DevOps y DBA**
+#### **Aldi España | Senior en Sistemas**
 **2022 - Actualidad**
 
 
@@ -38,7 +38,7 @@ Con más de 12 años de experiencia en administración de sistemas y gestión de
   - Administro Checkmk para la monitorización avanzada de servidores, garantizando la proactividad en la identificación y resolución de problemas para mantener la alta disponibilidad y rendimiento del sistema. Esta iniciativa ha mejorado significativamente nuestra capacidad para anticipar y resolver problemas, minimizando el impacto en las operaciones críticas del negocio y elevando la eficiencia operativa.
    **_______________________________________________________________________________**
 
-#### **DBA SQL & Administrador de Sistemas enfocado en DevOps y Virtualización | Logicalis (Fusión Bankia + CaixaBank DBA)**
+#### **DBA SQL & Administrador de Sistemas y Virtualización | Logicalis (Fusión Bankia + CaixaBank DBA)**
 **2021 - 2022**
 - **Automatización y Monitorización de TI:**
   - Lidero la implementación y administración de infraestructura de monitorización con **Grafana e InfluxDB**.
