@@ -1,7 +1,7 @@
 ---
 title: "He comenzado un nuevo curso: Preparación para la Certificación del eJPTv2"
 date: 2024-05-16 16:00:00 +0200
-categories: [Personal, Cursos]
+categories: [Blog, Cursos]
 tags: [Cursos, eJPTv2, elrincondelhacker]
 ---
 
