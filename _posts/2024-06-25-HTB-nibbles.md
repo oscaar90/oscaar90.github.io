@@ -259,7 +259,7 @@ User nibbler may run the following commands on Nibbles:
 ```
 Este resultado muestra que podemos ejecutar el script monitor.sh ubicado en el directorio personal del usuario nibbler con privilegios de root y sin contraseña.
 
-Modificación y Ejecución del Script
+### Modificación y Ejecución del Script
 Para explotar esta configuración, modificamos el contenido del script monitor.sh para ejecutar una shell con privilegios de root:
 
 ```bash
