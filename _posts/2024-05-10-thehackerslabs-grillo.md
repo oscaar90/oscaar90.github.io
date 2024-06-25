@@ -1,8 +1,8 @@
 ---
 title: "Writeup [Grillo] - The Hackers Labs"
 date: 2024-05-10 14:00:00 +0200
-categories: [Blog, writeups]
-tags: [CTF, Writeups, Thehackerslabs]
+categories: [CTF, Writeups, Thehackerslabs, Linux, Principiante]
+tags: [CTF, Writeups, Thehackerslabs, Linux, Principiante]
 image: /img/posts/CTF/grillo/grillo.png
 ---
 
