@@ -10,7 +10,7 @@ image: /img/posts/CTF/ensala/logo.png
 
 ## Introducción
 
-Hoy vamos a realizar el desafío de la máquina CTF llamada **Ensala Papas** en TheHackersLabs. Este es un reto de nivel principiante que opera bajo un sistema Linux. **Tengo un aprecio especial por esta máquina** ya que me enfrenté a muchos obstáculos durante el proceso y logré superarlos con éxito.
+Hoy vamos a realizar el desafío de la máquina CTF llamada **[Ensala Papas](https://thehackerslabs.com/ensala-papas/)** en TheHackersLabs. Este es un reto de nivel principiante que opera bajo un sistema Linux. **Tengo un aprecio especial por esta máquina** ya que me enfrenté a muchos obstáculos durante el proceso y logré superarlos con éxito.
 
 A lo largo de este viaje, recibí **consejos valiosos de la comunidad**, y justo cuando estaba a punto de darla por perdida, decidí darme un margen de dos días. Después de este breve descanso, me puse de nuevo con el desafío y logré resolverlo. Por eso, este writeup me hace especial ilusión compartirlo.
 
