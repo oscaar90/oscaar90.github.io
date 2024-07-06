@@ -116,6 +116,9 @@ Con ADB correctamente instalado en nuestro sistema, procedimos a seguir los paso
 
 Al intentar conectar con el dispositivo mediante ADB, el sistema nos informó que el daemon no estaba en ejecución y procedió a iniciarlo automáticamente:
 
+![Imagen del mensaje 'source' en index.html](</img/posts/CTF/MobilePhone/adbconnect.png>) 
+
+
 ```bash
 adb connect 172.18.0.135                               
 * daemon not running; starting now at tcp:5037
@@ -123,7 +126,7 @@ adb connect 172.18.0.135
 connected to 172.18.0.135:5555
 ```
 
-![Imagen del mensaje 'source' en index.html](</img/posts/CTF/MobilePhone/adbconnect.png>) 
+
 
 ## Obteniendo Acceso de Root
 Una vez establecida la conexión, ejecutamos el comando adb root para reiniciar el servicio ADB con privilegios de root, lo que nos proporcionó un nivel de acceso superior sobre el dispositivo:
