@@ -204,7 +204,8 @@ Este permiso es especialmente crítico ya que permite al usuario ejecutar comand
 
 ### Explotación de la Vulnerabilidad
 
-Basándonos en la configuración encontrada, utilizamos `vim` para escalar privilegios hasta root de manera trivial. Siguiendo las instrucciones encontradas en [HackTricks](https://book.hacktricks.xyz/linux-hardening/privilege-escalation#sudo-version), ejecutamos el siguiente comando en nuestro shell:
+Basándonos en la configuración encontrada, utilizamos `vim` para escalar privilegios hasta root de manera trivial. Siguiendo las instrucciones encontradas en 
+🌐 [**Web oficial de HackTricks (Vulnerabilidad sudo-version)**](https://book.hacktricks.xyz/linux-hardening/privilege-escalation#sudo-version/){:target="_blank"}
 
 ```bash
 sudo vim -c '!sh'
