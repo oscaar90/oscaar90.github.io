@@ -1,5 +1,5 @@
 ---
-title: "Writeup [Nibbles] - HackTheBox"
+title: "HackTheBox - Principiante : [Nibbles]"
 date: 2024-06-25 10:00:00 +0200
 categories: [CTF, Writeups, HackTheBox, Linux, Principiante]
 tags: [CTF, Writeups, HackTheBox, Linux, Principiante]

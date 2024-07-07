@@ -1,5 +1,5 @@
 ---
-title: "Writeup [Ensala papas] - TheHackerLabs"
+title: "TheHackerLabs - Principiante : [Ensala papas]"
 date: 2024-07-02 10:00:00 +0200
 categories: [CTF, Writeups, TheHackerLabs, Linux, Principiante]
 tags: [CTF, Writeups, TheHackerLabs, Linux, Principiante]

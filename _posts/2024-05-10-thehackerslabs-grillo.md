@@ -1,5 +1,5 @@
 ---
-title: "Writeup [Grillo] - The Hackers Labs"
+title: "TheHackerLabs - Principiante : [Grillo]"
 date: 2024-05-10 14:00:00 +0200
 categories: [CTF, Writeups, Thehackerslabs, Linux, Principiante]
 tags: [CTF, Writeups, Thehackerslabs, Linux, Principiante]

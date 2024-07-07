@@ -1,5 +1,5 @@
 ---
-title: "TheHackerLabs - Principiante : [Mobile Phone] - "
+title: "TheHackerLabs - Principiante : [Mobile Phone]"
 date: 2024-07-06 14:35:00 +0200
 categories: [CTF, Writeups, TheHackerLabs, Android, Principiante]
 tags: [CTF, Writeups, TheHackerLabs, Android, Principiante]
