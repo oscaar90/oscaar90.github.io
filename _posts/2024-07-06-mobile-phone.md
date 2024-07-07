@@ -61,7 +61,7 @@ nmap -p- --open --min-rate 2000 -sS -Pn -n -vvv 172.18.0.135 -oG allports_mobile
 ```
 
 
-(Aquí adjuntarías la imagen del resultado del escaneo)
+![Imagen del mensaje 'source' en index.html](</img/posts/CTF/MobilePhone/scannmap.png>) 
 
 **Descubrimiento Importante: Puerto 5555**
 
