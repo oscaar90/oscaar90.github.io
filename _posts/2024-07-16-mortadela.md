@@ -35,7 +35,7 @@ En este caso, nuestra interfaz activa es `eth0` con la dirección IP `10.0.2.5`.
 
 ## Paso 2: Escaneo de red en busca de dispositivos
 
-Ahora realizamos un escaneo de red para identificar otros dispositivos conectados en la misma red. Utilizamos `arp-scan` para este propósito. En un post anterior, hice una guía sobre cómo usar este comando: [Consiguiendo la IP de la víctima en CTF](posts/consiguiendo-la-ip-victima-CTF/).
+Ahora realizamos un escaneo de red para identificar otros dispositivos conectados en la misma red. Utilizamos `arp-scan` para este propósito. En un post anterior, hice una guía sobre cómo usar este comando: [Consiguiendo la IP de la víctima en CTF](/posts/consiguiendo-la-ip-victima-CTF/).
 
 ```shell
 ❯ arp-scan -I eth0 --localnet
