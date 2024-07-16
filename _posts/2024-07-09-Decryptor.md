@@ -6,7 +6,7 @@ tags: [CTF, Writeups, TheHackerLabs, Linux, Principiante]
 image: /img/posts/CTF/Decryptor/decrypt.jpg
 ---
 
-## Introducción
+## Introducciónn
 
 Bienvenidos al desafío **"Decryptor"**, un CTF diseñado para principiantes que se lleva a cabo en un sistema operativo basado en Linux. Este reto, creado por `@murrusko`, ofrece una excelente oportunidad para que los principiantes se familiaricen con las operaciones básicas de Linux en un contexto de CTF.
 
