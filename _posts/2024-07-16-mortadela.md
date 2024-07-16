@@ -550,9 +550,7 @@ mortadela@mortadela:~$ ./linpeas_linux_amd64 | tee resultado_linpeas.txt
 ```
 
 Analizaremos la salida de `linpeas` para identificar posibles vectores de escalación de privilegios.
-![Imagen del resultado de arp-scan](/img/posts/CTF/mortadela/linpeas.png)
-
-
+![Imagen del resultado de linpeas](../img/posts/CTF/mortadela/linpeas.png)
 
 
 ### Ejecución de linpeas
@@ -775,7 +773,7 @@ Una vez descargada la herramienta de GitHub e informados de cómo utilizarla, no
 **NOTA:** El primer carácter no se puede recuperar. Obtenemos `xxxxxxxxxxxxxxxxxxx`, nos falta el primer carácter. Probando logramos acceder con `Xxxxxxxxxxxxx`.
 
 
-![Imagen del resultado de keepass](/img/posts/CTF/mortadela/keepass.png)
+![Imagen del resultado de keepass](../img/posts/CTF/mortadela/keepass.png)
 
 ### Acceso como root
 
