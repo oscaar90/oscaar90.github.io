@@ -750,7 +750,7 @@ Analizaremos la salida de `keepass_dump` para identificar posibles contraseñas 
 
 Una vez descargada la herramienta de GitHub e informados de cómo utilizarla, nos ponemos manos a la obra.
 
-\```shell
+```shell
 ┌─[✗]─[root@parrot]─[/home/oscar/THL/mortadela/keepass]
 └──╼ # python3 keepass_dump/keepass_dump.py -f KeePass.DMP                         
 [*] Searching for masterkey characters
@@ -770,7 +770,7 @@ Una vez descargada la herramienta de GitHub e informados de cómo utilizarla, no
 [*] 12:	x
 [*] 13:	x
 [*] Extracted: {UNKNOWN}xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-\```
+```
 
 **NOTA:** El primer carácter no se puede recuperar. Obtenemos `xxxxxxxxxxxxxxxxxxx`, nos falta el primer carácter. Probando logramos acceder con `Xxxxxxxxxxxxx`.
 
