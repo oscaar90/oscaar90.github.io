@@ -113,7 +113,7 @@ IPs verificadas han sido registradas en verificadas_ips.csv
 cat verificadas_ips.csv 
 
 116.59.29.87	192.168.1.38	0x0002	Abused	99
-65.49.1.59	    192.168.1.38	0x0002	Abused	100
+65.49.1.59	192.168.1.38	0x0002	Abused	100
 152.42.253.17	192.168.1.38	0x0002	Not Abused	28
 104.209.34.218	192.168.1.38	0x0002	Abused	100
 93.174.93.12	192.168.1.38	0x0002	Abused	100
