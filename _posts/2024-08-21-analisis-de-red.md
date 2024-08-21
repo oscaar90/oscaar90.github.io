@@ -103,6 +103,31 @@ echo "IPs verificadas han sido registradas en $OUTPUT_VERIFIED_CSV"
 # El mensaje de echo informa al usuario que el proceso ha terminado y que el archivo con las IPs verificadas está disponible.
 
 ```
+## Resultado
+
+```bash
+sudo ./analizar_ips.sh 
+Running as user "root" and group "root". This could be dangerous.
+IPs verificadas han sido registradas en verificadas_ips.csv
+
+cat verificadas_ips.csv 
+
+116.59.29.87	192.168.1.38	0x0002	Abused	99
+65.49.1.59	    192.168.1.38	0x0002	Abused	100
+152.42.253.17	192.168.1.38	0x0002	Not Abused	28
+104.209.34.218	192.168.1.38	0x0002	Abused	100
+93.174.93.12	192.168.1.38	0x0002	Abused	100
+111.23.122.227	192.168.1.38	0x0002	Abused	100
+95.214.55.138	192.168.1.38	0x0002	Abused	100
+172.169.207.62	192.168.1.38	0x0002	Abused	100
+141.255.160.234	192.168.1.38	0x0002	Abused	100
+93.174.93.12	192.168.1.38	0x0002	Abused	100
+185.224.128.83	192.168.1.38	0x0002	Abused	100
+154.213.184.25	192.168.1.38	0x0002	Abused	100
+205.210.31.231	192.168.1.38	0x0002	Not Abused	0
+149.50.103.48	192.168.1.38	0x0002	Abused	100
+62.169.23.115	192.168.1.38	0x0002	Abused	100
+```
 
 ## Conclusión
 
@@ -111,3 +136,6 @@ Este script es una herramienta poderosa para cualquier analista de seguridad que
 Al seguir esta metodología, podemos integrar fácilmente la verificación de IPs en nuestros flujos de trabajo de análisis de red, proporcionando una capa adicional de seguridad en la detección y prevención de ataques en nuestra red.
 
 ¡Pruébalo y asegura tu red de manera proactiva!
+
+
+Saludos, Óscar
