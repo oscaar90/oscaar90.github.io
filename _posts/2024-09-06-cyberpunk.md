@@ -3,7 +3,7 @@ title: "TheHackerLabs - Principiante : [Cyberpunk]"
 date: 2024-09-06 19:00:00 +0200
 categories: [CTF, Writeups, TheHackerLabs, Linux, Principiante]
 tags: [CTF, Writeups, TheHackerLabs, Linux, Principiante]
-image: /img/posts/CTF/Cyberpunk/image.jpg
+image: /img/posts/CTF/cyberpunk/image.jpg
 ---
 
 
