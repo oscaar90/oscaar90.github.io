@@ -1,8 +1,8 @@
 ---
-title: "Cyberpunk - Principiante: [Relic Infiltration]"
-date: 2024-09-06 10:00:00 +0200
-categories: [CTF, Writeups, Linux, Principiante, Hacking]
-tags: [CTF, Writeups, Linux, Principiante, Exploits]
+title: "TheHackerLabs - Principiante : [Cyberpunk]"
+date: 2024-09-06 19:00:00 +0200
+categories: [CTF, Writeups, TheHackerLabs, Linux, Principiante]
+tags: [CTF, Writeups, TheHackerLabs, Linux, Principiante]
 image: /img/posts/CTF/Cyberpunk/image.jpg
 ---
 
@@ -19,7 +19,6 @@ Empezamos identificando la IP de la máquina objetivo utilizando el comando `ip 
 ❯ ip a
 ```
 
-Salida:
 
 ```bash
 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
@@ -32,7 +31,7 @@ Ahora ejecutamos `arp-scan` para identificar las máquinas en la red.
 ❯ arp-scan -I eth0 --localnet
 ```
 
-Salida:
+
 
 ```bash
 10.0.2.8    08:00:27:43:1e:91   (Unknown)
@@ -46,7 +45,7 @@ Procedemos con un escaneo completo de puertos utilizando `nmap` para identificar
 ❯ nmap -p- -Pn -n --min-rate 2000 10.0.2.8 -oG allports
 ```
 
-Salida:
+
 
 ```bash
 PORT   STATE SERVICE
@@ -61,10 +60,9 @@ Realizamos un escaneo más detallado en los puertos 21, 22 y 80.
 ❯ nmap -sSCV -p21,22,80 -vvv 10.0.2.8 -oN ports
 ```
 
-Salida:
-```
+
 Puerto 21 con acceso anónimo, un archivo `index.html`, y un archivo `secret.txt`. El puerto 80 presenta un servidor HTTP Apache.
-```
+
 
 ## Acceso al FTP Anónimo
 
