@@ -1,6 +1,6 @@
 ---
 title: "Problema: Latencia alta en el sistema y fallos en el ratón (clic izquierdo) en Shooters"
-date: 2024-09-25 19:10:00 +0200
+date: 2024-09-25 15:17:00 +0200
 categories: [Windows, Configuraciones]
 tags: [Windows, NVIDIA, Optimización, Drivers]
 image: /img/posts/Systemlatency.png
