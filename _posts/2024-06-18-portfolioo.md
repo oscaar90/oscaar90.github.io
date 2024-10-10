@@ -6,9 +6,11 @@ tags: [Portfolio]
 image: /img/posts/portfolio.png
 ---
 
-## Administrador de Sistemas y DBA | En transición hacia la Ciberseguridad
+## Project Manager IT con 12 años de experiencia en administración de sistemas y gestión de bases de datos.
 
-Con más de 12 años de experiencia en administración de sistemas y gestión de bases de datos, me especializo en optimización de rendimientos, integridad de datos y, recientemente, en la ciberseguridad. Actualmente, me preparo para la certificación eJPTv2 y refuerzo infraestructuras tecnológicas críticas.
+A lo largo de mi carrera, me he especializado en la planificación, ejecución y supervisión de proyectos tecnológicos, garantizando el cumplimiento de plazos, optimización de recursos y mejora continua en entornos críticos. Mi experiencia abarca la gestión de equipos multidisciplinarios y la implementación de soluciones innovadoras que han mejorado significativamente la eficiencia operativa en las empresas con las que he colaborado.
+
+Actualmente, mi objetivo es consolidar mi carrera como Project Manager IT, aplicando tanto mis conocimientos técnicos avanzados como mis habilidades de liderazgo para asegurar el éxito en la entrega de proyectos tecnológicos. Busco crear valor al alinear la tecnología con los objetivos estratégicos del negocio, maximizando la productividad y la eficiencia a través de la automatización y optimización de procesos.
 
 ### Experiencia Profesional
 
