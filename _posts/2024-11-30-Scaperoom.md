@@ -48,10 +48,10 @@ sudo nmap -sSCV -p- -Pn -n --min-rate 5000 192.168.1.41
 
 Accedemos al puerto 80 y encontramos una página web básica con un **timestamp dinámico** que cambia cada minuto. Tras inspeccionar el código fuente, no encontramos información adicional relevante.
 
-Usamos **WhatWeb** para identificar más detalles del servidor:
+Usamos **`whatweb --verbose`** para identificar más detalles del servidor:
 
 ```bash
-whatweb http://192.168.1.41
+`whatweb --verbose` http://192.168.1.41
 ```
 
 **Resultados:**
