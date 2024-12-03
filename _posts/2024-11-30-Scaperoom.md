@@ -51,7 +51,7 @@ Accedemos al puerto 80 y encontramos una página web básica con un **timestamp 
 Usamos **`whatweb --verbose`** para identificar más detalles del servidor:
 
 ```bash
-`whatweb --verbose` http://192.168.1.41
+whatweb --verbose http://192.168.1.41
 ```
 
 **Resultados:**
