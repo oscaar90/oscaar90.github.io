@@ -118,13 +118,13 @@ mysql -u acute -p -h 192.168.1.41
 
 Exploramos la base de datos y encontramos un **evento programado** deshabilitado. Lo activamos:
 
-```mysql
+```sql
 ALTER EVENT insert_login_data ENABLE;
 ```
 
 Ahora, la tabla `login` genera credenciales cada minuto. Desencriptamos la contraseña directamente en MySQL:
 
-```mysql
+```sql
 SELECT CONVERT(AES_DECRYPT(UNHEX(password), 'encryption_key') USING utf8) 
 AS decrypted_password FROM login WHERE usuario = 'administrador';
 ```
