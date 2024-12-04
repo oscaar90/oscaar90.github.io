@@ -12,7 +12,7 @@ image: /img/posts/CTF/Scaperoom/scaperoom.png
 
 # 🕵️ Resolución del CTF: Scape Room
 
-**Scape Room** es un reto avanzado diseñado para la comunidad de [**TheHackerLabs**](https://thehackerslabs.com/){:target="_blank"}. Este CTF es especial para mí porque, además de aprender mucho durante su creación, quise darle un enfoque realista inspirado en una experiencia de escape room. Cada paso del desafío tiene una lógica bien definida, combinando técnicas avanzadas con un límite de tiempo que agrega una presión realista y emocionante.
+**Scape Room** es un reto avanzado diseñado para la comunidad de [**TheHackerLabs**](https://thehackerslabs.com/scaperoom/){:target="_blank"}. Este CTF es especial para mí porque, además de aprender mucho durante su creación, quise darle un enfoque realista inspirado en una experiencia de escape room. Cada paso del desafío tiene una lógica bien definida, combinando técnicas avanzadas con un límite de tiempo que agrega una presión realista y emocionante.
 
 ---
 
