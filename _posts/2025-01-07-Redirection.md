@@ -23,19 +23,12 @@ Para comenzar, descargamos y ejecutamos el laboratorio provisto en formato Docke
 ### 📥 Descarga y Ejecución del Laboratorio
 
 1. **Listamos el contenido del directorio:**
+
 ```bash
 └─$ ls
 bugbountylabs_redirection.py
                                                                                                                                                                                                         
 └─$ sudo python3 bugbountylabs_redirection.py
-[sudo] password for oscar: 
-
-██████╗ ██╗   ██╗ ██████╗     ██████╗  ██████╗ ██╗   ██╗███╗   ██╗████████╗██╗   ██╗    ██╗      █████╗ ██████╗ ███████╗
-██╔══██╗██║   ██║██╔════╝     ██╔══██╗██╔═══██╗██║   ██║████╗  ██║╚══██╔══╝╚██╗ ██╔╝    ██║     ██╔══██╗██╔══██╗██╔════╝
-██████╔╝██║   ██║██║  ███╗    ██████╔╝██║   ██║██║   ██║██╔██╗ ██║   ██║    ╚████╔╝     ██║     ███████║██████╔╝███████╗
-██╔══██╗██║   ██║██║   ██║    ██╔══██╗██║   ██║██║   ██║██║╚██╗██║   ██║     ╚██╔╝      ██║     ██╔══██║██╔══██╗╚════██║
-██████╔╝╚██████╔╝╚██████╔╝    ██████╔╝╚██████╔╝╚██████╔╝██║ ╚████║   ██║      ██║       ███████╗██║  ██║██████╔╝███████║
-╚═════╝  ╚═════╝  ╚═════╝     ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝      ╚═╝       ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝
         
 Fundadores
 El Pingüino de Mario
@@ -286,9 +279,12 @@ http://172.17.0.2/laboratorio3/redirect.php?url=https://www.google.com/search?q=
 
 #### ✅ Explicación del Método
 
-La validación de la aplicación solo verifica si el dominio base es `www.google.com`, pero no inspecciona el resto del enlace. Esto permite aprovechar cualquier subpágina de Google para redirigir al usuario a un contenido controlado de manera indirecta.
+La validación de la aplicación se limita a verificar si el dominio base contiene www.google.com, pero no inspecciona ni valida correctamente el resto del enlace. Esto permite aprovechar cualquier subdominio, ruta, o enlace que tenga www.google.com como parte del dominio, sin importar su autenticidad o contenido.
 
-Por ejemplo, en este caso, al usar el enlace de búsqueda `172.17.0.2/laboratorio3/redirect.php?url=https://www.google.com/search?q=bugbountylabs&sca_esv=7caec7b3ee93c0f3&source=hp&ei=JAF9Z9_cKbvj5NoPkObqmA8&iflsig=AL9hbdgAAAAAZ30PNPh_qj6ISjaNs5tFzfOEUQWE5nkJ&ved=0ahUKEwjf_sfVsuOKAxW7MVkFHRCzGvMQ4dUDCBA&uact=5&oq=bugbountylabs`, el usuario es llevado a una página controlada por Google que muestra información sobre el dominio "bugbountylabs.com". Esto puede ser aprovechado para confundir al usuario y hacerlo creer que está accediendo a un sitio confiable.
+Por ejemplo, en este caso usamos un enlace dentro del dominio principal:
+172.17.0.2/laboratorio3/redirect.php?url=https://www.google.com/search?q=bugbountylabs&sca_esv=7caec7b3ee93c0f3&source=hp&ei=JAF9Z9_cKbvj5NoPkObqmA8&iflsig=AL9hbdgAAAAAZ30PNPh_qj6ISjaNs5tFzfOEUQWE5nkJ&ved=0ahUKEwjf_sfVsuOKAxW7MVkFHRCzGvMQ4dUDCBA&uact=5&oq=bugbountylabs.
+
+Este enlace redirige a una búsqueda de Google que muestra resultados para "bugbountylabs". Sin embargo, también habría funcionado un subdominio como www.analisis.google.com, ya que la validación no distingue entre dominios legítimos y subdominios, lo que amplía las posibilidades de explotación. Esto puede ser aprovechado para confundir al usuario y redirigirlo a contenido malicioso o no deseado bajo la apariencia de un dominio confiable.
 
 ![Web](/img/posts/BBL/Redirection/lab3-1.png)
 ![Web](/img/posts/BBL/Redirection/lab3-2.png)
