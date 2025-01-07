@@ -159,15 +159,15 @@ Accedemos al **Laboratorio 1**, donde se nos presenta un botón con la funcional
 
 #### 🚩 Observación
 La URL del botón es la siguiente:
-\```bash
+```bash
 http://172.17.0.2/laboratorio1/redirect.php?url=http://google.com
-\```
+```
 
 #### 🛠️ Explotación
 Modificamos el parámetro `url` para redirigir a un sitio de nuestra elección. Cambiamos la URL del enlace a:
-\```bash
+```bash
 http://172.17.0.2/laboratorio1/redirect.php?url=https://thehackerslabs.com/
-\```
+```
 
 ![Web](/img/posts/BBL/Redirection/lab1-1.png)
 
@@ -194,14 +194,14 @@ Accedemos al **Laboratorio 2**, que presenta un botón similar al del Laboratori
 
 #### 🚩 Observación
 La URL del botón es la siguiente:
-\```bash
+```bash
 http://172.17.0.2/laboratorio2/redirect.php?url=https://www.google.com
-\```
+```
 
 Intentamos modificar el parámetro `url` para redirigir a un sitio diferente:
-\```bash
+```bash
 http://172.17.0.2/laboratorio2/redirect.php?url=https://elrincondelhacker.es/
-\```
+```
 
 **Resultado:**
 - La aplicación detecta el cambio y muestra un mensaje de alerta:
@@ -213,9 +213,9 @@ http://172.17.0.2/laboratorio2/redirect.php?url=https://elrincondelhacker.es/
 
 Para evadir la validación, utilizamos un método conocido como **redirección con autenticación embebida**. Modificamos la URL para incluir el dominio permitido como parte del usuario en la autenticación HTTP básica:
 
-\```bash
+```bash
 http://172.17.0.2/laboratorio2/redirect.php?url=https://www.google.com@elrincondelhacker.es/
-\```
+```
 
 **Resultado:**
 - Al acceder, el navegador muestra un aviso:
@@ -244,23 +244,23 @@ El **Laboratorio 3** tiene un diseño similar a los anteriores, con un botón qu
 
 #### 🚩 Observación
 El enlace del botón es el siguiente:
-\```bash
+```bash
 http://172.17.0.2/laboratorio3/redirect.php?url=https://www.google.com
-\```
+```
 
 Intentamos modificar el parámetro `url` como en los laboratorios anteriores:
 
 1. **Cambio directo de URL:**
-   \```bash
+   ```bash
    http://172.17.0.2/laboratorio3/redirect.php?url=https://bugbountylabs.com/
-   \```
+   ```
    **Resultado:**  
    > "Redirección no permitida. Solo puedes redirigirte a Google."
 
 2. **Uso del método de autenticación embebida:**
-   \```bash
+   ```bash
    http://172.17.0.2/laboratorio3/redirect.php?url=https://www.google.com@https://bugbountylabs.com/
-   \```
+   ```
    **Resultado:**  
    > "Redirección no permitida. Solo puedes redirigirte a Google."
 
@@ -274,9 +274,9 @@ Nos preguntamos: **¿Qué ocurre si usamos un enlace válido de Google pero que 
 
 Modificamos el parámetro `url` para apuntar a una búsqueda de Google, como la siguiente:
 
-\```bash
+```bash
 http://172.17.0.2/laboratorio3/redirect.php?url=https://www.google.com/search?q=bugbountylabs
-\```
+```
 
 **Resultado:**
 - La aplicación redirige correctamente al enlace de búsqueda de Google:
