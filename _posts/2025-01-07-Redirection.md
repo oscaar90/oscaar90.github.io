@@ -217,6 +217,7 @@ http://172.17.0.2/laboratorio2/redirect.php?url=https://www.google.com@elrincond
 - Confirmamos con "Yes" y somos redirigidos correctamente a `https://elrincondelhacker.es/`.
 
 ![Web](/img/posts/BBL/Redirection/lab2-1.png)
+![Web](/img/posts/BBL/Redirection/lab2-2.png)
 
 ---
 
