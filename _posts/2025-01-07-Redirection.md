@@ -23,7 +23,7 @@ Para comenzar, descargamos y ejecutamos el laboratorio provisto en formato Docke
 ### 📥 Descarga y Ejecución del Laboratorio
 
 1. **Listamos el contenido del directorio:**
-   ```bash
+```bash
 └─$ ls
 bugbountylabs_redirection.py
                                                                                                                                                                                                         
