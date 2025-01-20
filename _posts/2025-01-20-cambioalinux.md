@@ -16,11 +16,11 @@ Cambiar de Windows a Linux Mint como mi sistema principal no fue una decisión f
 - **Hardware utilizado:**
   - Procesador: AMD Ryzen 7 2700
   - GPU: NVIDIA GeForce RTX 3060
-  - Monitor: 2560x1440 @ 180Hz
+  - Monitor: 3440x1440 @ 180Hz
   - Disco: M.2 de 1TB dedicado a Linux Mint.
 - **Problemas en Windows:**
   - Consumo elevado de recursos en segundo plano.
-  - Bajones de rendimiento al usar juegos y máquinas virtuales simultáneamente.
+  - Bajones de rendimiento al usar juegos o máquinas virtuales.
   - Actualizaciones forzadas que interrumpían el flujo de trabajo y causaban inestabilidad.
   - Dificultades para mantener los controladores NVIDIA actualizados, con problemas recurrentes tras ciertas actualizaciones.
   - Configuraciones de red predeterminadas ineficientes, lo que afectaba la estabilidad y velocidad de la conexión.
