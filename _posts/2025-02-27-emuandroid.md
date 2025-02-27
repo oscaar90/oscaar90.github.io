@@ -26,7 +26,7 @@ ssds
 Ejecutando: 
 
 
-```bash 
+```bash
 docker run -d --privileged --name android-container
 -p 6080:6080 -p 5555:5555
 -e DEVICE="Samsung Galaxy S10"
