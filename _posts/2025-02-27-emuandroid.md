@@ -26,7 +26,8 @@ ssds
 Ejecutando: 
 
 
-```bash docker run -d --privileged --name android-container
+```bash 
+docker run -d --privileged --name android-container
 -p 6080:6080 -p 5555:5555
 -e DEVICE="Samsung Galaxy S10"
 -e EMULATOR_ARGS="-no-window -gpu swiftshader_indirect -no-audio"
@@ -112,4 +113,3 @@ nomodeset evita esto y permite que el sistema se inicie en un modo básico.
 
 ## 🎯 Conclusión
 Los parámetros evitan que Android-x86 intente usar controladores incompatibles y relajan las restricciones de seguridad para permitir que el sistema se ejecute correctamente en VirtualBox.
-
