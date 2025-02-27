@@ -24,6 +24,8 @@ ssds
 ### ✅ Solución parcial:
 
 Ejecutando: 
+
+
 ```bash docker run -d --privileged --name android-container
 -p 6080:6080 -p 5555:5555
 -e DEVICE="Samsung Galaxy S10"
@@ -48,18 +50,27 @@ Para hacer persistente la configuración del GRUB en Android-x86, realicé los s
 Pulsa Alt + F1 para acceder a la terminal.
 
 2️⃣ Montar el disco virtual de Android-x86
-```bash mkdir /mnt/sda mount /dev/block/sda1 /mnt/sda ```
+```bash 
+mkdir /mnt/sda mount /dev/block/sda1 /mnt/sda 
+```
 
 3️⃣ Editar el archivo del menú de GRUB
-```bash vi /mnt/sda/grub/menu.lst ```
+```bash 
+vi /mnt/sda/grub/menu.lst 
+```
 
 4️⃣ Modificar la línea del kernel
-Busqué la primera entrada de arranque y cambié quiet por: ```plaintext nomodeset root=/dev/ram0 androidboot.selinux=permissive ```
+Busqué la primera entrada de arranque y cambié quiet por: 
+```bash 
+nomodeset root=/dev/ram0 androidboot.selinux=permissive 
+```
 5️⃣ Guardar los cambios en vi
 Pulsa Esc y escribe :wq, luego presiona Enter para guardar y salir.
 
 6️⃣ Reiniciar el sistema
-```bash reboot ```
+```bash 
+reboot 
+```
 
 
 
@@ -67,33 +78,38 @@ Pulsa Esc y escribe :wq, luego presiona Enter para guardar y salir.
 ### 📌 Explicación de los parámetros
 En el archivo menu.lst de GRUB, agregamos los siguientes parámetros al kernel:
 
-```plaintext androidboot.selinux=permissive nomodeset xforcevesa ```
+```plaintext 
+androidboot.selinux=permissive nomodeset xforcevesa 
+```
 
 Cada uno cumple una función clave para resolver los problemas de arranque y compatibilidad con la máquina virtual.
 
-🔷 1. androidboot.selinux=permissive
+#### 🔷 1. androidboot.selinux=permissive
 SELinux (Security-Enhanced Linux) es un módulo de seguridad en Android y Linux que restringe el acceso de procesos y usuarios al sistema.
 Android normalmente se ejecuta con SELinux en modo "enforcing", lo que significa que aplica estrictamente sus reglas de seguridad.
 ¿Qué hace este parámetro?
 Cambia el modo de SELinux a "permissive".
 En este modo, SELinux no bloquea acciones potencialmente peligrosas, solo las registra.
 Evita problemas con permisos y bloqueos de procesos en el arranque.
-📌 ¿Por qué era necesario?
+
+#### 📌 ¿Por qué era necesario?
 
 VirtualBox y Android-x86 no están optimizados para funcionar juntos.
 SELinux en modo "enforcing" puede bloquear el acceso a controladores de pantalla, entradas de teclado o incluso algunos módulos del kernel, impidiendo el arranque.
 Poner SELinux en modo "permissive" hace que el sistema sea más tolerante y no bloquee procesos esenciales.
-🔶 2. nomodeset
+
+#### 🔶 2. nomodeset
 Este parámetro desactiva el "modo gráfico automático" del kernel de Linux.
 Normalmente, el kernel detecta y configura automáticamente los controladores gráficos, pero en VirtualBox esto puede fallar.
 ¿Qué hace este parámetro?
 Evita que el kernel cargue drivers gráficos que puedan ser incompatibles.
 Obliga al sistema a usar un controlador de gráficos genérico hasta que el entorno gráfico cargue correctamente.
-📌 ¿Por qué era necesario?
+
+#### 📌 ¿Por qué era necesario?
 
 Android-x86 puede intentar cargar controladores gráficos no compatibles con VirtualBox, causando pantallas negras o bloqueos en el arranque.
 nomodeset evita esto y permite que el sistema se inicie en un modo básico.
 
-🎯 Conclusión
+## 🎯 Conclusión
 Los parámetros evitan que Android-x86 intente usar controladores incompatibles y relajan las restricciones de seguridad para permitir que el sistema se ejecute correctamente en VirtualBox.
 
