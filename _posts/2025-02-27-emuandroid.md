@@ -2,7 +2,7 @@
 title: "Emulación de Android en Linux: Un camino lleno de obstáculos" 
 date: 2025-02-27 18:20:00 +0200 
 categories: [Linux, Emulación Android] 
-tags: [Android, Emulación, Linux, Virtualización, Docker]
+tags: [Android, Emulación, Linux, Virtualización]
 image: /img/posts/EmulacionAndroidLinux/android-emulation.png
 ---
 
